@@ -9,7 +9,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}`, 
+        url: `${ALCHEMY_API_KEY}`, 
       }
     },
     // for testnet
